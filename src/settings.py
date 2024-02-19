@@ -13,8 +13,8 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = None
-PROJECT_NAME_FULL: str = None
+PROJECT_NAME: str = "Open Sensor Data for Rail 2023"
+PROJECT_NAME_FULL: str = "Open Sensor Data for Rail 2023"
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
 ##################################
@@ -53,7 +53,9 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # Use dict key to specify name for a button
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = None
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"some_link_to_repo_if_exists"}
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {
+    "GitHub": "some_link_to_repo_if_exists"
+}
 
 CITATION_URL: Optional[str] = None
 AUTHORS: Optional[List[str]] = None
